@@ -1,1 +1,2 @@
-# 26_WuRen_Richard
+# Richard-H
+# 敢拼敢赢，精益求精
