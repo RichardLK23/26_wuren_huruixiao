@@ -1,0 +1,5 @@
+turtle_controller:
+  ros_parameters:
+    linear_speed: 2.0
+    angular_speed: 1.0
+    T_time: 6.2831852
