@@ -1,0 +1,5 @@
+{
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ -I D:/DAUM/msys64/ucrt64/include -I D:/DAUM/msys64/ucrt64/include/eigen3 $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe"
+    }
+}
