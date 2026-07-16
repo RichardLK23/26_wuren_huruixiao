@@ -2,7 +2,7 @@
 
 ## 要求
 
-#### CMake 部分变量命名要求
+### CMake 部分变量命名要求
 
 + CMake 最小版本号：3.10
 
@@ -10,21 +10,19 @@
 
 + 可执行文件名：server（对应server.cpp）、client（对应client.cpp）
 
-+ 库目标名：与文件夹名一致		例如：
++ 库目标名：与文件夹名一致例如：
 
-  ```cmake
-  add_library(ABC ${ABC_DIR})
-  # 其中 ABC 文件夹如下
-  # ABC
-  # ├── include
-  # │   └── ABC.h
-  # └── src
-  #     └── ABC.cpp
-  ```
+```cmake
+add_library(ABC ${ABC_DIR})
+# 其中 ABC 文件夹如下
+# ABC
+# ├── include
+# │   └── ABC.h
+# └── src
+#     └── ABC.cpp
+```
 
-
-
-#### 注意事项
+### 注意事项
 
 考核人员基本情况（防止有同学担心我们会故意刁难，其实不会）：
 
@@ -32,17 +30,17 @@
 
 + 考核人员会跳转至 CMake_Test 文件夹下，打开终端键入以下命令行，若不通过即视为失败
 
-  ```bash
-  mkdir build
-  cd build
-  cmake ..
-  make -j6
-  ./test
-  ```
-
-#### 最终参考运行效果
-
+```bash
+mkdir build
+cd build
+cmake ..
+make -j6
+./test
 ```
+
+### 最终参考运行效果
+
+```bash
 M1 construct
 I'm M1
 I'm Lidar
